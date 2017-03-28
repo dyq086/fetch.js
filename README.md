@@ -1,11 +1,5 @@
 # fetch.js
-## 基于fetch ajax请求及跨域封装
-
-
-
-## 基本用法：
-
-### 基于es6 wepack项目运用
+## 基于 es6 wepack项目运用 fetch ajax请求及跨域封装用法
 
 #### 1、npm install fetch-jsonp (跨域请求依赖包)
 
