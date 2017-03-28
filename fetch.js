@@ -78,18 +78,3 @@ export default async(type = 'GET', url = '', data = {}, method = 'fetch') => {
         }
     }
 }
-
-
-
-
-    // import fetch from 'dep/service';
-     // var getList = () => fetch('GET','https://api-mall.etcchebao.com/goods/detail', {
-     //        token: token,
-     //        id: id
-     //    },'fetchJsonp');
-
-
-     //    // 获取当前城市
-     //    getList(token,id).then(res => {
-     //       console.log(res);
-     //    })
