@@ -84,8 +84,8 @@
 	    }
 	}
 
+## 用法
 #### 1、npm install fetch-jsonp (跨域请求依赖包)
-
 
 #### 2、基本请求用法
 	//service.js
