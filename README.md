@@ -19,7 +19,7 @@
             token: token,
             id: id
         })
-	  export{getList}
+
 
 
 	//list.js
