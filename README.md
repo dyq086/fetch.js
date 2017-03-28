@@ -96,6 +96,7 @@
             token: token,
             id: id
         })
+	 export{getList}
 
 
 
@@ -117,7 +118,7 @@
             token: token,
             id: id
         },'fetchJsonp')
-	  export{getList}
+	export{getList}
 
 
 	//list.js
