@@ -90,13 +90,12 @@
 #### 2、基本请求用法
 	//service.js
  	import fetch from 'fetch';
- 	let token="";
- 	let id="194"
-     var getList = () => fetch('GET','/goods/detail', {
+ 	const token="xxx";
+ 	const id="xxx"
+     export getList = () => fetch('GET','/goods/detail', {
             token: token,
             id: id
         })
-	 export{getList}
 
 
 
@@ -112,13 +111,12 @@
 #### 3、跨域请求用法
 	//service.js
  	import fetch from 'fetch';
- 	let token="";
- 	let id="194"
-     var getList = () => fetch('GET','https://api-mall.xxxx.com/goods/detail', {
+ 	const token="xxx";
+ 	const id="xxx"
+     export getList = () => fetch('GET','https://api-mall.xxxx.com/goods/detail', {
             token: token,
             id: id
         },'fetchJsonp')
-	export{getList}
 
 
 	//list.js
